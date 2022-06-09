@@ -1,7 +1,7 @@
 //═══════════════════════════════════════════════════════//
 //
-//                              𝙶𝙾𝙹𝙾-𝚂𝙰𝚃𝙾𝚁𝚄 𝓫𝔂 𝓷𝓮𝔁𝓾𝓼𝓝𝔀
-//𝙰𝙳𝙾𝙿𝚃𝙴𝙳 𝙵𝚁𝙾𝙼  𝚂𝙲𝚁𝙸𝙿𝚃 𝙾𝙵 𝙲𝙷𝙴𝙴𝙼𝚂𝙱𝙾𝚃 𝚅2 𝙱𝚈 𝙳𝙶𝚇𝚎𝚘𝚗 
+//                              Lavina Bot   by Ronen
+//𝒞𝐻𝐸𝐸𝑀𝒮𝐵𝒪𝒯 𝒱𝟤 𝑅𝐸𝒱𝐸𝑅𝒮𝐸 𝐸𝒩𝒢𝐼𝒩𝐸𝐸𝑅𝐸𝒟 𝐵𝒴 𝑅𝒪𝒩𝐸𝒩
 //
 //════════════════════════════//
 
@@ -145,7 +145,7 @@ Kon = await getBuffer(`https://hardianto.xyz/api/welcome3?profile=${encodeURICom
 Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://telegra.ph/file/8bbe8a7de5c351dfcb077.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
                 if (anu.action == 'add') {
                     GojoMdNx.sendMessage(anu.id, { image: Kon, contextInfo: { mentionedJid: [num] }, caption: `
-⭐✑ Hi👋 @${num.split("@")[0]},
+⭐✑ YO Whatsup👋 @${num.split("@")[0]},
 ⭐✑ Welcome To ${metadata.subject}
 
 ⭐✑ Description: ${metadata.desc}
@@ -154,7 +154,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
                 } else if (anu.action == 'remove') {
                     GojoMdNx.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `⭐✑ @${num.split("@")[0]} Left ${metadata.subject}
 
-⭐✑ I'm Not Sure If It Was A Goodbye Charm, But It Was Fun While It Lasted 😌✨` })
+⭐✑ If you're brave enough to say goodbye, life will reward you with a new hello. 😌✨` })
                 }
             }
         } catch (err) {
