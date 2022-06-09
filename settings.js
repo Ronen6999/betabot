@@ -1,7 +1,7 @@
 //═══════════════════════════════════════════════════════//
 //
-//                              𝙶𝙾𝙹𝙾-𝚂𝙰𝚃𝙾𝚁𝚄 𝓫𝔂 𝓷𝓮𝔁𝓾𝓼𝓝𝔀
-//𝙰𝙳𝙾𝙿𝚃𝙴𝙳 𝙵𝚁𝙾𝙼  𝚂𝙲𝚁𝙸𝙿𝚃 𝙾𝙵 𝙲𝙷𝙴𝙴𝙼𝚂𝙱𝙾𝚃 𝚅2 𝙱𝚈 𝙳𝙶𝚇𝚎𝚘𝚗 
+//                              𝓛𝓪𝓿𝓲𝓷𝓪 𝓫𝓸𝓽   𝙗𝙮 𝙍𝙤𝙣𝙚𝙣
+// 𝒞𝐻𝐸𝐸𝒮𝐵𝑀𝒪𝒯 𝒱𝟤 𝑅𝐸𝒱𝐸𝑅𝒮𝐸 𝐸𝒩𝒢𝐼𝒩𝐸𝐸𝑅𝐸𝒟 𝐵𝒴 𝑅𝒪𝒩𝐸𝒩
 //
 //════════════════════════════//
 
@@ -19,18 +19,18 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['Your Number']
-global.premium = ['Your Number']
-global.ownernomer = 'Your Number'
-global.ownername = '🐦Star Boy Nexus'
-global.botname = 'Gojo-Satoru'
-global.footer = '©NexusNwInc.'
-global.ig = 'https://github.com/nexusNw'
+global.owner = ['15062480596']
+global.premium = ['15062480596']
+global.ownernomer = '15062480596'
+global.ownername = 'Ronen'
+global.botname = 'Lavina Bot'
+global.footer = '©RonenbotsInc.'
+global.ig = 'https://github.com/ronen6999'
 global.region = 'India, South India, Kerala'
-global.sc = 'https://github.com/nexusNw/Gojo-Satoru'
-global.myweb = 'https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ'
-global.packname = 'Gojo-Satoru'
-global.author = '🐦Star Boy Nexus'
+global.sc = 'https://github.com/ronen6999/betabot'
+global.myweb = 'https://www.youtube.com/c/RonenAMVs'
+global.packname = 'Lavina Bot'
+global.author = 'Ronen'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
@@ -38,7 +38,7 @@ global.mess = {
     success: 'Done ✓',
     admin: 'This Feature Is Only For Admin!',
     botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This Feature Is Only For Owner!',
+    owner: 'This Feature Is Only For Ronen!',
     group: 'Feature Used Only For Groups!',
     private: 'Features Used Only For Private Chat!',
     bot: 'This Feature Is Only For Bot',
