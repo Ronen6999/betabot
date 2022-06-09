@@ -3354,16 +3354,16 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             jpegThumbnail: fs.readFileSync('./GojoMedia/gojo.jpg')}, 
                             hydratedFooterText: `
 ┌─❖
-│「 Hi 👋 」
+│「 YO! 👋 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  Kese ho bro/sis/gay/lesbi?😄
+┌┤✑  Kesa hai?  👀
 │└───────────────┈ ⳹
 │ 「 BOT INFO 」
 │✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
 │✙ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
 │✙ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
-│✙ *DEVELOPER* 𝗡𝗮𝗺𝗲 : ${global.ownername}
-│✙ *DEVELOPER* 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner}
+│✙ DEVELOPER 𝗡𝗮𝗺𝗲 : ${global.ownername}
+│✙ DEVELOPER 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner}
 │✙ 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
 │✙ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
 │✙ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
@@ -3392,7 +3392,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner🐦',
+                                    displayText: 'Developer🐦',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3763,7 +3763,7 @@ case 'allmenu': {
 ┃╠${prefix}masasubur (indo)
 ┃╠${prefix}zodiak (indo)
 ┃╠${prefix}shio (indo)
-┃╚═══════✍︎𝑁𝑒𝑥𝑢𝑠𝑁𝑤
+┃╚═══════✍︎Lavina Bot
 ┗━「 *Created By ${ownername}*  𖠌」━⭓`
     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -3779,7 +3779,7 @@ case 'allmenu': {
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '👤Developer',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -4175,7 +4175,7 @@ case 'thanksto': case 'tqto': case 'tqtt':
 var unicorn = await getBuffer(picak+'Developer')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 Thanks to Me (Ronen)
-And Again Me (Ronen 🎉) 🐦 Who reverse engineered this bot !!!`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
+ 🐦 Who reverse engineered this bot !!!`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
             default:
                 if (budy.startsWith('=>')) {
